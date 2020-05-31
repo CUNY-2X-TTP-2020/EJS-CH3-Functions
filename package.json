@@ -1,0 +1,33 @@
+{
+    "name": "ejs-ch3-functions",
+    "author": "Ricky Chon",
+    "version": "1.0.0",
+    "description": "Eloquent JavaScript CH3 Functions Exercises",
+    "scripts": 
+    {
+        "test-all": "mocha */*.test.js",
+        "test-01": "mocha */minimum.test.js",
+        "test-02": "mocha */isEven.test.js",
+        "test-03": "mocha */countBs.test.js",
+        "test-04": "mocha */countChar.test.js"
+    },
+    "repository": 
+    {
+        "type": "git",
+        "url": "git+https://github.com/CUNY-2X-TTP-2020/EJS-CH3-Functions.git"
+    },
+    "bugs": 
+    {
+        "url": "https://github.com/CUNY-2X-TTP-2020/EJS-CH3-Functions/issues"
+    },
+    "homepage": "https://github.com/CUNY-2X-TTP-2020/EJS-CH3-Functions#readme",
+    "dependencies": 
+    {
+        "chai": "^4.2.0",
+        "faker": "^4.1.0",
+        "mocha": "^7.2.0",
+        "moment": "^2.26.0",
+        "sinon": "^9.0.2"
+    },
+    "license": "ISC"
+}
