@@ -4,7 +4,11 @@
 */
 function countChar(word, char)
 {
-
+    return word.split("").reduce((count, currentLetter) =>
+    {
+        currentLetter === char ? count++ : count;
+        return count;
+    }, 0);
 }
 
 module.exports = countChar;
