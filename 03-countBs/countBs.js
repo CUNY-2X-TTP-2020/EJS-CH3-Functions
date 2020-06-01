@@ -4,7 +4,11 @@
 */
 function countBs(word)
 {
-
+    return word.split("").reduce((count, currentLetter) =>
+    {
+        currentLetter === 'B' ? count++ : count;
+        return count;
+    }, 0);
 }
 
 module.exports = countBs;
